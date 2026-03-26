@@ -1,13 +1,16 @@
-const { defineConfig } = require("cypress");
+import { defineConfig } from 'cypress'
 
-module.exports = defineConfig({
-  allowCypressEnv: false,
+export default defineConfig({
+  reporter: 'junit',
+  reporterOptions: {
+    mochaFile: 'results/junit-[hash].xml',
+    toConsole: true,
+  },
 
   e2e: {
-    baseUrl: "https://alexbashchuk.github.io",
-
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      return config
     },
+    baseUrl: 'https://alexbashchuk.github.io',
   },
-});
+})
