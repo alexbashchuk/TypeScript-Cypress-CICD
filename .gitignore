@@ -1,0 +1,11 @@
+node_modules/
+allure-results/
+allure-report/
+test-results/
+dist/
+build/
+coverage/
+cypress/videos/
+cypress/screenshots/
+*.log
+.env
