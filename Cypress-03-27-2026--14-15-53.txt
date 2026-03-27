@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260327141553
+Username: ALEXDESKTOP\bostc
+RunAs User: ALEXDESKTOP\bostc
+Configuration Name: 
+Machine: ALEXDESKTOP (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  D:\PROGRAMMING\Cypress\Cypress_Typesctipt\Cypress Tests Start.ps1 
+Process ID: 3868
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+Select browser for Cypress run:
+1) chrome (default)
+2) edge
+3) firefox
+4) electron
+
+Select browser mode:
+1) headed (default)
+2) headless
+
+Log file: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\Cypress-03-27-2026--14-15-53.txt
+Current folder: D:\PROGRAMMING\Cypress\Cypress_Typesctipt
+Browser: chrome
+Mode: headed
+Generate Allure Report: True
+Specs to run:
+ - cypress/e2e/portfolio-home.cy.ts
+ - cypress/e2e/portfolio-certifications.cy.ts
+
+Preparing Allure history and cleaning previous raw results...
+Previous Allure history found and backed up from: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-reports\allure-report-03-27-2026--13-40-37\history
+Deleted previous raw Allure results: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-results
+Spec argument: cypress/e2e/portfolio-home.cy.ts,cypress/e2e/portfolio-certifications.cy.ts
+
+Running Cypress command:
+C:\Program Files\nodejs\npx.cmd cypress run --browser chrome --spec cypress/e2e/portfolio-home.cy.ts,cypress/e2e/portfolio-certifications.cy.ts --headed
+
+
+
+Cypress exit code: 0
+Cypress finished successfully.
+
+Preparing Allure report...
+Restored previous Allure history into: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-results\history
+Running Allure command:
+C:\Users\bostc\scoop\shims\allure.cmd generate D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-results --clean -o D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-reports\allure-report-03-27-2026--14-15-53
+
+
+
+Allure exit code: 0
+Allure report created successfully.
+Timestamped report: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-reports\allure-report-03-27-2026--14-15-53
+Latest report copy: D:\PROGRAMMING\Cypress\Cypress_Typesctipt\allure-reports\allure-report-latest
+**********************
+Windows PowerShell transcript end
+End time: 20260327141720
+**********************

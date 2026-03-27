@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.567" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-03-27T18:16:59" tests="0" file="cypress\e2e\portfolio-certifications.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Portfolio home page certificates test" timestamp="2026-03-27T18:16:59" tests="6" time="19.566" failures="0">
+    <testcase name="Portfolio home page certificates test Checks certificate details for AS1" time="3.312" classname="Checks certificate details for AS1">
+    </testcase>
+    <testcase name="Portfolio home page certificates test Checks certificate details for AS2" time="3.218" classname="Checks certificate details for AS2">
+    </testcase>
+    <testcase name="Portfolio home page certificates test Checks certificate details for TDS1" time="3.221" classname="Checks certificate details for TDS1">
+    </testcase>
+    <testcase name="Portfolio home page certificates test Checks certificate details for TDS2" time="3.207" classname="Checks certificate details for TDS2">
+    </testcase>
+    <testcase name="Portfolio home page certificates test Checks certificate details for qTest" time="3.221" classname="Checks certificate details for qTest">
+    </testcase>
+    <testcase name="Portfolio home page certificates test Checks certificate details for CTFL" time="3.222" classname="Checks certificate details for CTFL">
+    </testcase>
+  </testsuite>
+</testsuites>

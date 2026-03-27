@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.413" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-03-27T18:16:19" tests="0" file="cypress\e2e\portfolio-home.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Portfolio home page experience tests" timestamp="2026-03-27T18:16:19" tests="6" time="39.413" failures="0">
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Southern Company" time="6.652" classname="Checks work description flow for Experience at Southern Company">
+    </testcase>
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Lockheed Martin" time="6.344" classname="Checks work description flow for Experience at Lockheed Martin">
+    </testcase>
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Fiserv" time="6.314" classname="Checks work description flow for Experience at Fiserv">
+    </testcase>
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Ford Motor Company" time="6.334" classname="Checks work description flow for Experience at Ford Motor Company">
+    </testcase>
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Royal Caribbean Ltd." time="6.314" classname="Checks work description flow for Experience at Royal Caribbean Ltd.">
+    </testcase>
+    <testcase name="Portfolio home page experience tests Checks work description flow for Experience at Canfield Scientific" time="6.328" classname="Checks work description flow for Experience at Canfield Scientific">
+    </testcase>
+  </testsuite>
+</testsuites>

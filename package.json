@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "allure:report": "allure generate allure-results --clean -o allure-reports",
+    "allure:open": "allure open allure-reports",
+    "allure:serve": "allure serve allure-results"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "allure-cypress": "^3.6.0",
     "cypress": "^15.13.0",
     "typescript": "^5.9.3"
   }
