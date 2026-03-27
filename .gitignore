@@ -8,6 +8,6 @@ coverage/
 cypress/videos/
 cypress/screenshots/
 *.log
-.env
-.ps1
-.exe
+*.env
+*.ps1
+*.exe
