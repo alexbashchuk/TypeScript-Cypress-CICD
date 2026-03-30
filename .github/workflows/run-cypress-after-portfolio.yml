@@ -1,0 +1,36 @@
+name: Run Cypress After Portfolio Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: "Repository that triggered this run"
+        required: false
+        type: string
+      source_sha:
+        description: "Commit SHA from source repository"
+        required: false
+        type: string
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Cypress
+        uses: cypress-io/github-action@v6
+        with:
+          install: false
+          browser: chrome
